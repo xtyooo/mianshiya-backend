@@ -3,7 +3,7 @@
 # 
 spring:
   application:
-    name: mianshiya
+    name: mianshibaodian
   # 默认 dev 环境
   profiles:
     active: dev
@@ -21,7 +21,7 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mianshiya
+    url: jdbc:mysql://localhost:3306/mianshibaodian
     username: root
     password: Yang18703806809
   # Redis 配置
@@ -100,4 +100,4 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.xty.mianshiya.controller
+          - com.xty.mianshibaodian.controller
